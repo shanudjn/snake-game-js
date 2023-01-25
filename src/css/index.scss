@@ -51,11 +51,11 @@
           display: flex;
           width: 50px;
           height: 50px;
-          background: #8ECC39;
+          background: #7dd3fc;
           box-sizing: border-box;
     
           &.even {
-            background: #A7D948;
+            background: #bae6fd;
           }
       
           &.snake{
@@ -69,6 +69,7 @@
           &.block {
             background-size: 120% 120%;
             background-position: center;
+            background-color:red;
             animation: glitter 4.5s linear 0s infinite normal;
           }
         }
@@ -92,7 +93,7 @@
         }
   
         .control-button {
-          background:#8ECC39;
+          background:#7dd3fc;
           cursor: pointer;
           border: none;
           padding: 10px 20px;
