@@ -94,15 +94,4 @@ export default class Snake {
     }
     this.direction = direction;
   }
-
-  handleArrowClick(event) {
-    const direction = event.currentTarget.classList.contains("up")
-      ? 0
-      : event.currentTarget.classList.contains("right")
-      ? 1
-      : event.currentTarget.classList.contains("down")
-      ? 2
-      : 3;
-    this.changeDirection(direction);
-  }
 }
